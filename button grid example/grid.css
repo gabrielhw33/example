@@ -1,0 +1,64 @@
+body {
+	min-height: 100vh;
+	background-image: linear-gradient(to bottom right, rgba(150, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+div {
+	background-color: #eee;
+	box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.3);
+	border-radius: 6px;
+
+}
+
+h3 {
+	padding: 10px;
+	font-size: 26px;
+	border-bottom: solid 1px #ccc;
+}
+
+.button {
+	color: black;
+	padding: 10px 15px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	border: none;
+	display: inline-grid;
+	grid-template-columns: repeat(3, 30px);
+	grid-gap: 10px; 
+}
+
+.button:hover {
+   opacity: 0.9;
+}
+
+
+.green {
+	background-color: #4CAF50;
+	color: white;
+}
+
+.green:active {
+	background-color: #11AA10;
+}
+
+.red {
+	background-color: #ff4444;
+	color: white;
+}
+
+.red:active {
+	background-color: #ff0000;
+}
+
+.white {
+	background-color: #fff;
+	border: solid 1px #ccc;
+}
+
+.white:active {
+ background-color: rgba(225, 225, 225, 0.2);
+
+}
